@@ -9,7 +9,7 @@ void main(List<String> args) {
   print("1 for Addition , 2 for Subtraction , 3 for Multiplication , 4 for Division");
   int ch = int.parse(stdin.readLineSync()!);
 
-  /*if(ch==1)
+  if(ch==1)
   {
     print("Ans = ${n1 + n2}");
   }
@@ -28,9 +28,9 @@ void main(List<String> args) {
   else 
   {
     print("Enter valid choice");
-  }*/
+  }
 
-  switch(ch)
+  /*switch(ch)
   {
     case 1:
       print("Ans = ${n1 + n2}");
@@ -50,6 +50,6 @@ void main(List<String> args) {
 
     default:
       print("Enter valid choice");
-  }
+  }*/
 
 }
